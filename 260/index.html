@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <header>
+    <h1>KCT's Personal Website</h1>
+  </header>
+  <nav>
+    <ul>
+      <li data-anijs="if: click, do: fadeInDown animated, to:#myinformation"><a href="#myinformation">個人資訊</a></li>
+      <li data-anijs="if: click, do: fadeInDown animated delay-sm, to:#skills"><a href="#skills">專業技能</a></li>
+      <li data-anijs="if: click, do: fadeInDown animated delay-sm, to:##experiences"><a href="#experiences">個人經歷</a></li>
+      <li data-anijs="if: click, do: fadeInDown animated delay-sm, to:#habbits"><a href="#habbits">興趣愛好</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <section class="card-information" id="myinformation">
+        <h2>個人資訊</h2>
+        <div class="mid">
+          <img src="image/123.png" class="mypic">
+        </div>
+        <p class="name1">郭津泰</p>
+        <div class="icon">
+          <a href="https://www.instagram.com/kctoii/" target="_blank"><img src="image/instagram.png" alt=""></a>
+          <a href="https://m.facebook.com/profile.php?id=100004242156958" target="_blank"><img src="image/facebook.png"
+              alt=""></a>
+          <a href="mailto:k0976058151@gmail.com"><img src="image/email.png" alt=""></a>
+          <a href="https://line.me/ti/p/GUSeENDFvQ"><img src="image/line.png" alt=""></a>
+        </div>
+        <p class="name2">中原大學 資訊管理學系</p>
+        <p class="introduce">哈囉! 我是資管二乙郭津泰，個性開朗活潑，優點是好相處</p>
+        <p class="introduce">先前就讀於淡江大學運輸管理學系，但由於興趣關係，於大二下學期轉入中原大學資訊管理學系</p>
+        <p class="introduce">我的Slogan為: 每天進步一點點</p>
+
+      </section>
+      <section class="card" id="skills">
+        <h2>專業技能</h2>
+        <div class="technical-bars">
+          <div class="bar">
+            <i class="bx bxl-html5" style="color: #c95d2e;"></i>
+            <div class="info">
+              <span>HTML 40%</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-css3" style="color: #2a2dcc;"></i>
+            <div class="info">
+              <span>CSS 30%</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-javascript" style="color: #3ea84c;"></i>
+            <div class="info">
+              <span>Javascript 30%</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-python" style="color: #871496;"></i>
+            <div class="info">
+              <span>Python 40%</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-react" style="color: #7ce1f3;"></i>
+            <div class="info">
+              <span>React 10%</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card" id="experiences">
+        <h2>個人經歷</h2>
+        <div class="experience-item">
+          <img src="image/IMG_7034.jpg" class="experience-img">
+          <div class="experience-content">
+            <h2>畢業於台南市私立德光高中</h2>
+            <p>我畢業於台南市私立德光高中，同學非常有趣，每次都跟大家玩到忘記讀書</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <img src="image/tkgsh.JPG" class="experience-img">
+          <div class="experience-content">
+            <h2>英語稱活營擔任助教</h2>
+            <p>在升大學前為訓練英語口說能力，我於台南南光國中擔任英語活營之助教，協助外師上課</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <img src="image/tk1.jpg" class="experience-img">
+          <div class="experience-content">
+            <h2>舉辦迎新茶會</h2>
+            <p>於先前學校舉辦迎新茶會，帶領學弟妹認識校園和系上事務</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <img src="image/tk2.jpg" class="experience-img">
+          <div class="experience-content">
+            <h2>舉辦迎新宿營</h2>
+            <p>在前校時於合歡山莊露營地舉辦三天的宿營活動，幫助學弟妹熟識系上同學，也訓練其團隊合作能力</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <img src="image/wo.jpg" class="experience-img">
+          <div class="experience-content">
+            <h2>打工經驗</h2>
+            <p>於寒暑假時我都會至家中附近的火鍋店打工，賺取工作經驗，也順便賺取零用錢</p>
+          </div>
+        </div>
+      </section>
+      <section class="card" id="habbits">
+        <h2>興趣愛好</h2>
+        <p class="introduce">我的興趣為，騎車 開車 拍照 跟貓狗玩 玩寶可夢 打麻將</p>
+        <div class="gallery">
+          <div><img src="image/IMG_7021.jpg" alt="" class="gimg"></div>
+          <div><img src="image/IMG_7022.jpg" alt="" class="gimg"></div>
+          <div><img src="image/IMG_7023.jpg" alt="" class="gimg"></div>
+          <div><img src="image/IMG_7025.jpg" alt="" class="gimg"></div>
+          <div><img src="image/IMG_7027.jpg" alt="" class="gimg"></div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div class="clearfix"></div>
+  <footer>
+    <h5>Copyrgiht @ 2024 All rights reserved</h5>
+  </footer>
+</body>
+
+</html>
